@@ -1,0 +1,67 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5e6cc; /* Light tan color */
+}
+
+header {
+    background-color: #996633; /* Darker tan for the header */
+    color: white;
+    padding: 1em;
+    text-align: center;
+    position: relative;
+}
+
+h1, h2, h3 {
+    font-size: 1.5em; /* Increase font size for all headers */
+}
+
+nav {
+    position: absolute;
+    top: 50%;
+    right: 1em;
+    transform: translateY(-50%);
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+#hero {
+    background-image: url('camping.jpg'); /* Add your image path here */
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding: 100px;
+    position: relative;
+}
+
+#hero img {
+    position: absolute;
+    top: 12px;
+    left: 12px;
+    width: 230px; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+}
+
+footer {
+    background-color: #996633; /* Darker tan for the footer */
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
